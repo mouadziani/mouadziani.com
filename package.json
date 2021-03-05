@@ -16,10 +16,13 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^3.4.2",
     "@vue/test-utils": "^1.1.2",
+    "autoprefixer": "^9",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^26.6.3",
     "jest": "^26.6.3",
     "nuxt-vite": "0.0.22",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "vue-jest": "^3.0.4"
   }
 }
