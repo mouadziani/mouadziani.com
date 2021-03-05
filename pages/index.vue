@@ -1,17 +1,20 @@
 <template>
   <div class="bg-gray-200">
-    <header class="w-full bg-white border-t-4 border-green-700 text-gray-600 body-font fixed shadow">
+    <header class="w-full bg-white border-t-4 border-green-800 text-gray-600 body-font fixed shadow">
       <div class="container max-w-screen-lg mx-auto flex flex-wrap py-5 flex-col md:flex-row items-center">
         <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
           <span class="text-xl font-semibold">Mouad ZIANI</span>
         </a>
         <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-          <a class="mr-5 cursor-pointer hover:text-gray-900">Home</a>
+          <nuxt-link 
+            class="mr-5 cursor-pointer hover:text-gray-900" 
+            :to="{ path: '/',hash:'#about'}"
+          >Home</nuxt-link>
           <a class="mr-5 cursor-pointer hover:text-gray-900">About</a>
           <a class="mr-5 cursor-pointer hover:text-gray-900">Projects</a>
           <a class="mr-5 cursor-pointer hover:text-gray-900">Contact</a>
         </nav>
-        <button class="inline-flex items-center text-green-700 border-green-700 border py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+        <button class="inline-flex items-center text-green-800 border-green-800 border py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
           Hire me
         </button>
       </div>  
@@ -19,17 +22,17 @@
     <section class="text-gray-600 bg-white">
       <div class="container max-w-screen-lg mx-auto flex pt-36 pb-20 md:flex-row flex-col items-center justify-bteween">
         <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h3 class="mb-2 text-sm font-semibold text-green-700">👋 Hi, Welcome There!</h3>
+          <h3 class="mb-2 text-sm font-semibold text-green-800">👋 Hi, Welcome There!</h3>
           <h1 class="font-bold mb-1 leading-none text-5xl text-gray-900">
             I'm Mouad ZIANI
           </h1>
           <h2 class="mb-4 font-semibold text-xl text-gray-600">Fullstack Web Developer</h2>
           <p class="mb-8 leading-relaxed text-gray-600">Fullstack Web Developer & Final year Master degree student specialized in Computer System Engineering.</p>
           <div class="flex justify-center">
-            <button class="inline-flex text-white bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded ">
+            <button class="inline-flex text-white bg-green-800 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded ">
               Get In Touch
             </button>
-            <button class="ml-4 inline-flex text-green-700 border border-green-700 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded ">
+            <button class="ml-4 inline-flex text-green-800 border border-green-800 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded ">
               View resume
             </button>
           </div>
@@ -45,19 +48,30 @@
           <h2 class="text-gray-900 text-2xl font-semibold lg:text-3xl">Services</h2>
         </header>
         <div class="lg:grid lg:grid-cols-3 lg:gap-8">
-          <a class="block p-4 bg-white rounded-lg shadow-md hover:shadow-lg w-full md:p-6" href="/jobs">
-            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-green-700 text-white">
+          <div class="block p-4 bg-white rounded-lg shadow-md hover:shadow-lg w-full md:p-6" >
+            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-green-800 text-white">
               <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
               </svg>
             </div>
             <div class="mt-5">
-              <h5 class="text-lg leading-6 font-medium text-gray-900">Web Developpement</h5>
+              <h5 class="text-lg leading-6 font-medium text-gray-900">Frontend Web Developpement</h5>
               <p class="mt-2 text-base leading-6 text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, dignissimos..</p>
             </div>
-          </a>
-          <a class="block mt-10 lg:mt-0 p-4 bg-white rounded-lg shadow-md hover:shadow-lg w-full md:p-6" href="/forum">
-            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-green-700 text-white">
+          </div>
+          <div class="block p-4 bg-white rounded-lg shadow-md hover:shadow-lg w-full md:p-6" >
+            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-green-800 text-white">
+              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+              </svg>
+            </div>
+            <div class="mt-5">
+              <h5 class="text-lg leading-6 font-medium text-gray-900">Backend Web Developpement</h5>
+              <p class="mt-2 text-base leading-6 text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, dignissimos..</p>
+            </div>
+          </div>
+          <div class="block mt-10 lg:mt-0 p-4 bg-white rounded-lg shadow-md hover:shadow-lg w-full md:p-6" >
+            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-green-800 text-white">
               <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"></path>
               </svg>
@@ -66,18 +80,7 @@
               <h5 class="text-lg leading-6 font-medium text-gray-900">Mobiel Developpement</h5>
               <p class="mt-2 text-base leading-6 text-gray-500">Rendez-vous sur le forum pour discuter de tout ce qui concerne le code/design.</p>
             </div>
-          </a>
-          <a class="block mt-10 lg:mt-0 p-4 bg-white rounded-lg shadow-md hover:shadow-lg w-full md:p-6" href="/join-slack">
-            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-green-700 text-white">
-              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
-              </svg>
-            </div>
-            <div class="mt-5">
-              <h5 class="text-lg leading-6 font-medium text-gray-900">Rejoignez-nous</h5>
-              <p class="mt-2 text-base leading-6 text-gray-500">Rejoignez une communauté de milliers de développeurs et designers comme vous.</p>
-            </div>
-          </a>
+          </div>
         </div>
       </div>
     </section>
