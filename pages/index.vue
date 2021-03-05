@@ -6,11 +6,8 @@
           <span class="text-xl font-semibold">Mouad ZIANI</span>
         </a>
         <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-          <nuxt-link 
-            class="mr-5 cursor-pointer hover:text-gray-900" 
-            :to="{ path: '/',hash:'#about'}"
-          >Home</nuxt-link>
-          <a class="mr-5 cursor-pointer hover:text-gray-900">About</a>
+          <a v-scroll-to="'#home'" class="mr-5 cursor-pointer hover:text-gray-900">Home</a>
+          <a v-scroll-to="'#about'" class="mr-5 cursor-pointer hover:text-gray-900">About</a>
           <a class="mr-5 cursor-pointer hover:text-gray-900">Projects</a>
           <a class="mr-5 cursor-pointer hover:text-gray-900">Contact</a>
         </nav>
@@ -19,7 +16,7 @@
         </button>
       </div>  
     </header>
-    <section class="text-gray-600 bg-white">
+    <section class="text-gray-600 bg-white" id="home">
       <div class="container max-w-screen-lg mx-auto flex pt-36 pb-20 md:flex-row flex-col items-center justify-bteween">
         <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h3 class="mb-2 text-sm font-semibold text-green-800">👋 Hi, Welcome There!</h3>
@@ -42,7 +39,7 @@
         </div>
       </div>
     </section>
-    <section class="bg-gray-100 py-10">
+    <section class="bg-gray-100 py-10" id="about">
       <div class="container max-w-screen-lg mx-auto w-full">
         <header class="mb-6 flex category_title items-end overflow-hidden">
           <h2 class="text-gray-900 text-2xl font-semibold lg:text-3xl">Services</h2>
