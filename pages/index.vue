@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="w-full bg-white dark:bg-indigo-800 border-t-4 border-green-800 text-gray-600 dark:text-gray-300 body-font fixed shadow">
+    <header class="w-full bg-white dark:bg-dark border-t-4 border-green-800 text-gray-600 dark:text-gray-300 body-font fixed shadow">
       <div class="container max-w-screen-lg mx-auto flex flex-wrap py-5 flex-col md:flex-row items-center">
         <a v-scroll-to="'#home'" class="flex title-font font-medium items-center cursor-pointer text-gray-900 mb-4 md:mb-0">
           <span class="text-xl font-semibold">Mouad ZIANI</span>
@@ -22,13 +22,14 @@
     <section class="text-gray-600 bg-white" id="home">
       <div class="container max-w-screen-lg mx-auto flex pt-36 pb-20 md:flex-row flex-col items-center justify-bteween">
         <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h3 class="mb-2 text-sm font-semibold text-green-800">👋 Hi, Welcome There!</h3>
-          <h1 class="font-bold mb-4 leading-none text-5xl text-gray-900">
+          <h3 class="mb-1 text-sm font-semibold text-green-800"><span class="text-xl mr-1">👋</span> Hi, Welcome There!</h3>
+          <h1 class="font-bold leading-none text-5xl text-gray-900">
             I'm Mouad ZIANI
           </h1>
+          <span class="mt-2 mb-4 w-10 h-1 bg-green-800"></span>
           <p class="text-sm mb-6 leading-relaxed text-gray-600">
             Fullstack Engineer at 
-            <a class="text-green-700 underline" href="https://www.promy.fr/">Promy.fr</a>  
+            <a class="text-green-700 font-bold underline" href="https://www.promy.fr/">Promy.fr</a>  
             & Final year Master degree student specialized in Computer System Engineering.
             <br class="block mt-2">
             Experienced in Web & Mobile Development to provide a robust web application for high-level overviews.
