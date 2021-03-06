@@ -15,6 +15,7 @@
     "vue-scrollto": "^2.20.0"
   },
   "devDependencies": {
+    "@nuxtjs/color-mode": "^2.0.4",
     "@nuxtjs/tailwindcss": "^3.4.2",
     "@vue/test-utils": "^1.1.2",
     "autoprefixer": "^9",

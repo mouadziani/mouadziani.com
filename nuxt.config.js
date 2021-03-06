@@ -33,10 +33,13 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
-    // 'nuxt-vite',
-    '@nuxtjs/tailwindcss'
-    // 'nuxt-vite'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode'
   ],
+
+  colorMode: {
+    classSuffix: ''
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -45,17 +48,5 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  },
-
-  router: {
-    scrollBehavior(to) {
-      if (to.hash) {
-        return window.scrollTo({
-          top: document.querySelector(to.hash).offsetTop + window.innerHeight,
-          behavior: 'smooth'
-        })
-      }
-      return window.scrollTo({ top: 0, behavior: 'smooth' })
-    }
   }
 }

@@ -1,18 +1,21 @@
 <template>
-  <div class="bg-gray-200">
-    <header class="w-full bg-white border-t-4 border-green-800 text-gray-600 body-font fixed shadow">
+  <div>
+    <header class="w-full bg-white dark:bg-indigo-800 border-t-4 border-green-800 text-gray-600 dark:text-gray-300 body-font fixed shadow">
       <div class="container max-w-screen-lg mx-auto flex flex-wrap py-5 flex-col md:flex-row items-center">
-        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <a v-scroll-to="'#home'" class="flex title-font font-medium items-center cursor-pointer text-gray-900 mb-4 md:mb-0">
           <span class="text-xl font-semibold">Mouad ZIANI</span>
         </a>
-        <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-          <a v-scroll-to="'#home'" class="mr-5 cursor-pointer hover:text-gray-900">Home</a>
+        <nav class="md:mr-auto md:ml-4 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
           <a v-scroll-to="'#about'" class="mr-5 cursor-pointer hover:text-gray-900">About</a>
+          <a class="mr-5 cursor-pointer hover:text-gray-900">Skills</a>
           <a class="mr-5 cursor-pointer hover:text-gray-900">Projects</a>
+          <a class="mr-5 cursor-pointer hover:text-gray-900">OSS</a>
+          <a class="mr-5 cursor-pointer hover:text-gray-900">Blog</a>
           <a class="mr-5 cursor-pointer hover:text-gray-900">Contact</a>
         </nav>
+        <theme-switcher class="px-3 mr-4 border-r border-gray-400"></theme-switcher>
         <button class="inline-flex items-center text-green-800 border-green-800 border py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
-          Hire me
+          Hire me !
         </button>
       </div>  
     </header>
@@ -26,7 +29,7 @@
           <h2 class="mb-4 font-semibold text-xl text-gray-600">Fullstack Web Developer</h2>
           <p class="mb-8 leading-relaxed text-gray-600">Fullstack Web Developer & Final year Master degree student specialized in Computer System Engineering.</p>
           <div class="flex justify-center">
-            <button class="inline-flex text-white bg-green-800 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded ">
+            <button class="inline-flex text-white bg-green-800 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">
               Get In Touch
             </button>
             <button class="ml-4 inline-flex text-green-800 border border-green-800 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded ">
@@ -39,7 +42,7 @@
         </div>
       </div>
     </section>
-    <section class="bg-gray-100 py-10" id="about">
+    <section class="bg-gray-50 py-10 border-t" id="about">
       <div class="container max-w-screen-lg mx-auto w-full">
         <header class="mb-6 flex category_title items-end overflow-hidden">
           <h2 class="text-gray-900 text-2xl font-semibold lg:text-3xl">Services</h2>
@@ -85,7 +88,9 @@
 </template>
 
 <script>
-export default {}
+import ThemeSwitcher from '../components/Shared/ThemeSwitcher.vue'
+export default {
+  components: { ThemeSwitcher },}
 </script>
 
 <style>
