@@ -23,11 +23,16 @@
       <div class="container max-w-screen-lg mx-auto flex pt-36 pb-20 md:flex-row flex-col items-center justify-bteween">
         <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h3 class="mb-2 text-sm font-semibold text-green-800">👋 Hi, Welcome There!</h3>
-          <h1 class="font-bold mb-1 leading-none text-5xl text-gray-900">
+          <h1 class="font-bold mb-4 leading-none text-5xl text-gray-900">
             I'm Mouad ZIANI
           </h1>
-          <h2 class="mb-4 font-semibold text-xl text-gray-600">Fullstack Web Developer</h2>
-          <p class="mb-8 leading-relaxed text-gray-600">Fullstack Web Developer & Final year Master degree student specialized in Computer System Engineering.</p>
+          <p class="text-sm mb-6 leading-relaxed text-gray-600">
+            Fullstack Engineer at 
+            <a class="text-green-700 underline" href="https://www.promy.fr/">Promy.fr</a>  
+            & Final year Master degree student specialized in Computer System Engineering.
+            <br class="block mt-2">
+            Experienced in Web & Mobile Development to provide a robust web application for high-level overviews.
+          </p>
           <div class="flex justify-center">
             <button class="inline-flex text-white bg-green-800 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">
               Get In Touch
@@ -78,7 +83,7 @@
             </div>
             <div class="mt-5">
               <h5 class="text-lg leading-6 font-medium text-gray-900">Mobiel Developpement</h5>
-              <p class="mt-2 text-base leading-6 text-gray-500">Rendez-vous sur le forum pour discuter de tout ce qui concerne le code/design.</p>
+              <p class="mt-2 text-base leading-6 text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, dignissimos..</p>
             </div>
           </div>
         </div>
