@@ -5,7 +5,10 @@ module.exports = {
     extend: {
       colors: {
         'dark': '#0d2438'
-      }
+      },
+      spacing: {
+        '0.5': '4px',
+       },
     },
   },
   variants: {
