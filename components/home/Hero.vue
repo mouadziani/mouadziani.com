@@ -23,7 +23,7 @@
             & Final year Master degree student specialized in Computer System
             Engineering.
             <br class="block mt-2" />
-            Experienced in Web & Mobile Development to provide a robust web
+            Experienced in Web Development to provide a robust web
             application for high-level overviews.
           </p>
           <div class="flex justify-center">
