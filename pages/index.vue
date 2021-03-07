@@ -18,14 +18,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.category_title::after {
-  content: "";
-  order: 1;
-  height: 2px;
-  margin-left: 1rem;
-  flex: 1 1 0%;
-  background-color: #e5e7ebb6;
-}
-</style>
