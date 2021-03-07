@@ -17,17 +17,19 @@
                     <div class="commas text-green-800">
                     “
                     </div>
-                    <p class="mb-6 text-base md:text-lg leading-relaxed md:leading-normal tracking-wide">
-                        Mouad is a fantastic person to work with. He is a hard worker experienced and gifted fullstack developer with a combination of productivity and ambition.He has an in-depth understanding of modern IT technologies with a very strong problem solving skills. Mouad is always positive and helpful and he never hesitates to provide support when needed. Working with Mouad is a fortunate opportunity to anyone.
+                    <p class="mb-4 text-base md:text-lg leading-relaxed md:leading-normal tracking-wide">
+                        Mouad is a fantastic person to work with. He is a hard worker experienced and gifted fullstack developer with a combination of productivity and ambition. 
+                        <mark class="bg-green-200 px-1 text-gray-600">He has an in-depth understanding of modern IT technologies with a very strong problem solving skills.</mark> Mouad is always positive and helpful and he never hesitates to provide support when needed. Working with Mouad is a fortunate opportunity to anyone.
                     </p>
                     <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
                     <div class="flex">
-                        <img src="/_nuxt/img/1bd1efc.png" class="rounded-full bg-gray-500 border border-gray-500 w-12 h-12 mr-4"> 
+                        <!-- <img src="/_nuxt/img/1bd1efc.png" class="rounded-full bg-gray-500 border border-gray-500 w-12 h-12 mr-4">  -->
                     <div>
+                    <span class="block w-10 mb-4 h-0.5 bg-green-800"></span>
                     <p class="text-base font-bold tracking-wide md:text-md">
                         Houda SLASSI
                     </p>
-                    <p class="text-sm tracking-wide font-semibold md:text-md text-green-800">
+                    <p class="text-xs tracking-wide font-semibold md:text-md text-green-800">
                         Backend Software Developer
                     </p>
                     </div>
@@ -39,17 +41,20 @@
             <div class="w-1/2 px-6">
                 <div class="border-2 rounded relative w-full h-min-content p-6 text-base testimonial animated slide-up-active border-green-800" uk-scrollspy-class="animation-position" style="">
                     <div class="commas text-green-800">“</div>
-                    <p class="mb-6 text-base md:text-lg leading-relaxed md:leading-normal tracking-wide">
-                        I know Mouad Ziani at SEOCOM he was under my responsibility, he's a Full-Stack Developer, mark Expert in PHP/ JavaScript on top of that he's a great problems solver and analyst. I strongly recommend him
+                    <p class="mb-4 text-base md:text-lg leading-relaxed md:leading-normal tracking-wide">
+                        I know Mouad Ziani at SEOCOM he was under my responsibility, he's a Full-Stack Developer,
+                        <mark class="bg-green-200 px-0.5 text-gray-600">Expert in PHP/ JavaScript on top of that he's a great problems solver and analyst.</mark>
+                        <br> I strongly recommend him
                     </p>
                     <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
                         <div class="flex">
-                            <img src="/_nuxt/img/1bd1efc.png" class="rounded-full bg-gray-500 border border-gray-500 w-12 h-12 mr-4"> 
+                            <!-- <img src="/_nuxt/img/1bd1efc.png" class="rounded-full bg-gray-500 border border-gray-500 w-12 h-12 mr-4">  -->
                         <div>
+                        <span class="block w-10 mb-4 h-0.5 bg-green-800"></span>
                         <p class="text-base font-semibold tracking-wide md:text-md">
                             Abdellah OUFFA
                         </p>
-                        <p class="text-sm tracking-wide font-semibold md:text-md text-green-800">
+                        <p class="text-xs tracking-wide font-semibold md:text-md text-green-800">
                             Senior GIS Analyst
                         </p>
                     </div>
