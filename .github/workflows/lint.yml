@@ -1,14 +1,25 @@
 name: Lint
-on: [push]
+
+on: push
+
 jobs:
-  build:
-    name: Test
+  run-linters:
+    name: Run linters
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v1
-      - uses: borales/actions-yarn@v2.0.0
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
         with:
-          cmd: install # will run `yarn install` command
-      - uses: borales/actions-yarn@v2.0.0
+          node-version: 12
+
+      # ESLint and Prettier must be in `package.json`
+      - name: Install Node.js dependencies
+        run: npm i
+
+      - name: Run linters
         with:
           cmd: lintfix
