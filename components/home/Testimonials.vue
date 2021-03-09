@@ -9,7 +9,7 @@
     >
       <title id="svg-laravelcm">Laravel Cameroon</title>
 
-                                                                    <defs>
+      <defs>
         <pattern
           id="ad119f34-7694-4c31-947f-5c9d249b21f3"
           x="0"

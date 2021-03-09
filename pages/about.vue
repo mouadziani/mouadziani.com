@@ -10,13 +10,13 @@
         <div class="mt-6 flex md:flex-row space-x-14 flex-col justify-bteween">
           <div class="flex-1">
             <p class="leading-7 text-gray-600">
-              Experienced Fullstack developer with great emphasis on Software
-              Engineering, and a strong background in PHP, Javascript, Python
-              and web development tools.
+              I'm 23 years old, Fulstack Engineer on web
+              ecosystem, MSc degree student spicialied in Computer System
+              Engineering and passionate about software engineering, with strong
+              background in PHP, Javascript/Typescript, Java and Python.
               <br class="block mt-2.5" />
-              I offer my expertise to address my customers requirements and
-              build robust and high quality software in a fast and efficient
-              way.
+              I have over +3 years of experience at private IT companies. Also as a
+              freelancer.
               <br class="block mt-2.5" />
               I'm positive, open-minded and determined. I'm always looking for
               personal and professional self-improvement, looking for greater
@@ -143,7 +143,7 @@
             </div>
           </div>
           <div>
-            <img class="object-cover h-56" alt="hero" src="about-hero.svg" />
+            <img class="object-cover h-64" alt="hero" src="about-hero.svg" />
           </div>
         </div>
       </div>
