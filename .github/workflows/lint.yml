@@ -21,5 +21,7 @@ jobs:
         run: npm i
 
       - name: Run linters
+        uses: wearerequired/lint-action@v1
         with:
-          cmd: lintfix
+          eslint: true
+          prettier: true
