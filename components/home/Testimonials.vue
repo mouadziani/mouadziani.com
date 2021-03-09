@@ -66,3 +66,24 @@
     </div>
 </section>
 </template>
+
+<style scoped>
+  .commas {
+    left: -.3em;
+    width: 45px;
+    height: 45px;
+    top: .1em;
+    font-size: 6em;
+    position: absolute;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    line-height: 1;
+    background-color: #fff;
+    border-radius: 9999px;
+}
+</style>
