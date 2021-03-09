@@ -1,4 +1,4 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   purge: [],
@@ -9,11 +9,11 @@ module.exports = {
         body: ['Roboto', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        'dark': '#0d2438'
+        dark: '#0d2438',
       },
       spacing: {
-        '0.5': '4px',
-       },
+        0.5: '4px',
+      },
     },
   },
   variants: {

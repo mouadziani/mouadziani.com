@@ -1,48 +1,49 @@
 <template>
-    <section class="text-gray-600 border-b bg-white">
+  <section class="text-gray-600 border-b bg-white">
+    <div
+      class="container max-w-screen-lg mx-auto flex pt-36 pb-20 md:flex-row flex-col items-center justify-bteween"
+    >
       <div
-        class="container max-w-screen-lg mx-auto flex pt-36 pb-20 md:flex-row flex-col items-center justify-bteween"
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
       >
-        <div
-          class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
-        >
-          <h3 class="mb-1 text-sm font-semibold text-green-700">
-            <span class="text-xl mr-1">👋</span> Hi, Welcome There!
-          </h3>
-          <h1 class="font-bold leading-none text-5xl text-gray-900">
-            I'm Mouad ZIANI
-          </h1>
-          <span class="mt-1 mb-4 w-10 h-1 bg-green-700"></span>
-          <p class="text-md mb-8 leading-relaxed text-gray-600">
-            Fullstack Engineer at
-            <a
-              class="text-green-700 font-bold underline"
-              href="https://www.promy.fr/"
-            >
-              Promy.fr
-            </a>
-            & Final year Master degree student specialized in Computer System
-            Engineering.
-            <br class="block mt-2" />
-            Experienced in Web Development to provide a robust web
-            application for high-level overviews.
-          </p>
-          <div class="flex justify-center">
-            <button
-              class="inline-flex shadow text-white bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded"
-            >
-              Get In Touch
-            </button>
-            <button
-              class="ml-4 inline-flex shadow text-green-700 border border-green-700 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded"
-            >
-              View resume
-            </button>
-          </div>
-        </div>
-        <div>
-          <img class="object-cover h-64" alt="hero" src="hero.svg" />
+        <h3 class="mb-1 text-sm font-semibold text-green-700">
+          <span class="text-xl mr-1">👋</span>
+          Hi, Welcome There!
+        </h3>
+        <h1 class="font-bold leading-none text-5xl text-gray-900">
+          I'm Mouad ZIANI
+        </h1>
+        <span class="mt-1 mb-4 w-10 h-1 bg-green-700"></span>
+        <p class="text-md mb-8 leading-relaxed text-gray-600">
+          Fullstack Engineer at
+          <a
+            class="text-green-700 font-bold underline"
+            href="https://www.promy.fr/"
+          >
+            Promy.fr
+          </a>
+          & Final year Master degree student specialized in Computer System
+          Engineering.
+          <br class="block mt-2" />
+          Experienced in Web Development to provide a robust web application for
+          high-level overviews.
+        </p>
+        <div class="flex justify-center">
+          <button
+            class="inline-flex shadow text-white bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded"
+          >
+            Get In Touch
+          </button>
+          <button
+            class="ml-4 inline-flex shadow text-green-700 border border-green-700 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded"
+          >
+            View resume
+          </button>
         </div>
       </div>
-    </section>
+      <div>
+        <img class="object-cover h-64" alt="hero" src="hero.svg" />
+      </div>
+    </div>
+  </section>
 </template>
