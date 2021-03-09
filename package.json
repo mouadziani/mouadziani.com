@@ -9,7 +9,8 @@
     "generate": "nuxt generate",
     "test": "jest",
     "lint": "eslint --ext .js,.vue,.ts --ignore-path .gitignore .",
-    "lintfix": "eslint --fix --ext .js,.vue,.ts --ignore-path .gitignore ."
+    "lintfix": "eslint --fix --ext .js,.vue,.ts --ignore-path .gitignore .",
+    "eslint:github-action": "node ./node_modules/eslint/bin/eslint . --ignore-path .gitignore --max-warnings 0"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.1",
