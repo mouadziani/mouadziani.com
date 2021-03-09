@@ -14,3 +14,9 @@
   transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
   background-color: rgba(79, 192, 141, 0.5);
 }
+
+.shadow-full {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 5px 0px,
+    rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 3px 1px -2px;
+  transition: all 0.3s ease 0s;
+}

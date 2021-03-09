@@ -18,8 +18,9 @@
             <a
               class="text-green-700 font-bold underline"
               href="https://www.promy.fr/"
-              >Promy.fr</a
             >
+              Promy.fr
+            </a>
             & Final year Master degree student specialized in Computer System
             Engineering.
             <br class="block mt-2" />
@@ -28,12 +29,12 @@
           </p>
           <div class="flex justify-center">
             <button
-              class="inline-flex text-white bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded"
+              class="inline-flex shadow text-white bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded"
             >
               Get In Touch
             </button>
             <button
-              class="ml-4 inline-flex text-green-700 border border-green-700 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded"
+              class="ml-4 inline-flex shadow text-green-700 border border-green-700 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded"
             >
               View resume
             </button>

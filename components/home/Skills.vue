@@ -9,15 +9,15 @@
           </h1>
           <span class="mt-1 mb-4 w-10 h-1 bg-green-700"></span>
         </div>
-        <div class="grid grid-cols-3 gap-6">
+        <div class="grid grid-cols-4 gap-4">
             <div 
-              class="block bg-white p-6 shadow rounded-lg mt-10 lg:mt-0 w-full"
+              class="block bg-white p-6 shadow-full rounded-lg mt-10 lg:mt-0 w-full"
               v-for="(skill, index) in skills"
               :key="index"
             >
               <div>
-                <h5 class="text-lg leading-6 font-medium text-gray-900">{{ skill.title }}</h5>
-                <p class="mt-2 mb-4 text-base leading-6 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h5 class="mb-4 text-lg leading-6 font-medium text-gray-900">{{ skill.title }}</h5>
+                <!-- <p class="mt-2 mb-4 text-base leading-6 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
                 <nav
                   class="flex flex-col sm:text-left space-y-2"
                 >
@@ -94,7 +94,7 @@ export default {
     return {
       skills: [
         {
-          title: 'BackEnd Developement',
+          title: 'Back-End',
           techs: [
             'Laravel ecosystem',
             'Symfony 3 & 4',
@@ -102,24 +102,23 @@ export default {
           ]
         },
         {
-          title: 'FrontEnd Developement',
+          title: 'Front-End',
           techs: [
             'Vue.js 2 & 3',
             'Angular 2+',
             'TailwindCss',
-            'Bootstrap Css'
           ]
         },
-        // {
-        //   title: ' Scrapping & Automation',
-        //   techs: [
-        //     'Python Scripting',
-        //     'Scrapping',
-        //     'Selenuim'
-        //   ]
-        // },
         {
-          title: 'Mobile Apps Developement',
+          title: 'Scrapping & Automation',
+          techs: [
+            'Python Scripting',
+            'Scrapy & Bs4',
+            'Selenuim'
+          ]
+        },
+        {
+          title: 'Mobile Apps',
           techs: [
             'Ionic 4+',
             'Flutter'
@@ -130,24 +129,3 @@ export default {
   }
 }
 </script>
-
-<style>
-  .commas {
-    left: -.3em;
-    width: 45px;
-    height: 45px;
-    top: .1em;
-    font-size: 6em;
-    position: absolute;
-    padding: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    line-height: 1;
-    background-color: #fff;
-    border-radius: 9999px;
-}
-</style>

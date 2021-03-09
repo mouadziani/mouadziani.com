@@ -1,26 +1,27 @@
 <template>
-  <div class="font-body">  
-    <Navigation />
+  <div class="font-body">
     <Hero />
+    <!-- <About /> -->
     <Skills />
+    <Oss />
     <Testimonials />
-    <Footer />
   </div>
 </template>
 
 <script>
-import Navigation from "../components/layout/Navigation.vue";
-import Footer from "../components/layout/Footer.vue";
 import Hero from "../components/home/Hero.vue";
+import About from "../components/home/About.vue";
 import Skills from "../components/home/Skills.vue";
 import Testimonials from "../components/home/Testimonials.vue";
+import Oss from '../components/home/Oss.vue';
 export default {
+  layout: 'default',
   components: { 
-    Navigation,
-    Footer,
     Hero,
+    About,
     Skills,
     Testimonials,
+    Oss,
   },
 };
 </script>
