@@ -17,7 +17,6 @@
         <NuxtLink to="/about" class="mr-5 cursor-pointer hover:text-gray-900">
           About
         </NuxtLink>
-        <a class="mr-5 cursor-pointer hover:text-gray-900">OSS</a>
         <a class="mr-5 cursor-pointer hover:text-gray-900">Blog</a>
         <a class="mr-5 cursor-pointer hover:text-gray-900">Contact</a>
       </nav>
