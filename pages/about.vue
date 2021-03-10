@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="text-gray-600 border-b bg-white">
-      <div class="container max-w-screen-lg mx-auto py-32 pb-12 flex flex-col">
+      <div class="container max-w-screen-lg mx-auto py-32 pb-10 flex flex-col">
         <h1 class="text-left text-3xl font-medium title-font text-gray-900">
           About Me
         </h1>
@@ -10,13 +10,13 @@
         <div class="mt-6 flex md:flex-row space-x-14 flex-col justify-bteween">
           <div class="flex-1">
             <p class="leading-7 text-gray-600">
-              I'm 23 years old, Fulstack Engineer on web
-              ecosystem, MSc degree student spicialied in Computer System
-              Engineering and passionate about software engineering, with strong
-              background in PHP, Javascript/Typescript, Java and Python.
+              I'm 23 years old, Fulstack Engineer on web ecosystem, MSc degree
+              student spicialied in Computer System Engineering and passionate
+              about software engineering, with strong background in PHP,
+              Javascript/Typescript, Java and Python.
               <br class="block mt-2.5" />
-              I have over +3 years of experience at private IT companies. Also as a
-              freelancer.
+              I have over +3 years of experience at private IT companies. Also
+              as a freelancer.
               <br class="block mt-2.5" />
               I'm positive, open-minded and determined. I'm always looking for
               personal and professional self-improvement, looking for greater
@@ -156,14 +156,14 @@
               Education
             </h1>
             <span class="block mt-1 mb-8 w-10 h-1 bg-green-800"></span>
-            <div class="flex relative pb-12">
+            <div class="flex relative pb-8">
               <div
-                class="h-full w-10 absolute inset-0 flex items-center justify-center"
+                class="h-full top-3 mt-2 w-10 absolute inset-0 flex items-center justify-center"
               >
                 <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
               </div>
               <div
-                class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10"
+                class="mt-3 flex-shrink-0 w-10 h-10 rounded-full bg-green-100 inline-flex items-center justify-center text-green-600 relative z-10"
               >
                 <svg
                   fill="none"
@@ -178,25 +178,26 @@
                 </svg>
               </div>
               <div class="flex-grow pl-4">
-                <h2
-                  class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider"
-                >
-                  STEP 1
+                <p class="font-meduim mb-1 text-xs text-gray-800">
+                  September 2019 - present
+                </p>
+                <h2 class="font-bold text-gray-900 mb-1 tracking-wider">
+                  Master's degree in Computer Systems engineering
                 </h2>
-                <p class="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
+                <p class="text-sm leading-relaxed text-gray-700">
+                  University Sultan Moulay Suliman - Department of Maths &
+                  Computer Sciences
                 </p>
               </div>
             </div>
-            <div class="flex relative pb-12">
+            <div class="flex relative pb-8">
               <div
-                class="h-full w-10 absolute inset-0 flex items-center justify-center"
+                class="h-full top-3 mt-2 w-10 absolute inset-0 flex items-center justify-center"
               >
                 <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
               </div>
               <div
-                class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10"
+                class="mt-3 flex-shrink-0 w-10 h-10 rounded-full bg-green-100 inline-flex items-center justify-center text-green-600 relative z-10"
               >
                 <svg
                   fill="none"
@@ -207,29 +208,30 @@
                   class="w-5 h-5"
                   viewBox="0 0 24 24"
                 >
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                 </svg>
               </div>
               <div class="flex-grow pl-4">
-                <h2
-                  class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider"
-                >
-                  STEP 2
-                </h2>
-                <p class="leading-relaxed">
-                  Vice migas literally kitsch +1 pok pok. Truffaut hot chicken
-                  slow-carb health goth, vape typewriter.
+                <p class="font-meduim mb-1 text-xs text-gray-800">
+                  September 2015 - 2019 July.
                 </p>
+                <h2 class="font-bold text-gray-900 mb-1 tracking-wider">
+                  BSc degree in Web Programming And Technologies
+                </h2>
+                <p class="text-sm text-smleading-relaxed text-gray-700">
+                  University Cadi Ayyad - Faculty of Sciences Semlalia
+                </p>
+                <!-- <p class="mt-1 text-green-600">First class honours degree</p> -->
               </div>
             </div>
-            <div class="flex relative pb-12">
+            <div class="flex relative pb-8">
               <div
-                class="h-full w-10 absolute inset-0 flex items-center justify-center"
+                class="h-full top-3 mt-2 w-10 absolute inset-0 flex items-center justify-center"
               >
                 <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
               </div>
               <div
-                class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10"
+                class="mt-3 flex-shrink-0 w-10 h-10 rounded-full bg-green-100 inline-flex items-center justify-center text-green-600 relative z-10"
               >
                 <svg
                   fill="none"
@@ -240,19 +242,18 @@
                   class="w-5 h-5"
                   viewBox="0 0 24 24"
                 >
-                  <circle cx="12" cy="5" r="3"></circle>
-                  <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                 </svg>
               </div>
               <div class="flex-grow pl-4">
-                <h2
-                  class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider"
-                >
-                  STEP 3
+                <p class="font-meduim mb-1 text-xs text-gray-800">
+                  September 2012 - 2015 June.
+                </p>
+                <h2 class="font-bold text-gray-900 mb-1 tracking-wider">
+                  Baccalaureate in physical sciences
                 </h2>
-                <p class="leading-relaxed">
-                  Coloring book nar whal glossier master cleanse umami. Salvia
-                  +1 master cleanse blog taiyaki.
+                <p class="text-sm text-smleading-relaxed mb-4 text-gray-700">
+                  Mohamed V high school
                 </p>
               </div>
             </div>
@@ -262,14 +263,14 @@
               Experience
             </h1>
             <span class="block mt-1 mb-8 w-10 h-1 bg-green-800"></span>
-            <div class="flex relative pb-12">
+            <div class="flex relative pb-8">
               <div
-                class="h-full w-10 absolute inset-0 flex items-center justify-center"
+                class="h-full top-3 mt-2 w-10 absolute inset-0 flex items-center justify-center"
               >
                 <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
               </div>
               <div
-                class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10"
+                class="mt-3 flex-shrink-0 w-10 h-10 rounded-full bg-green-100 inline-flex items-center justify-center text-green-600 relative z-10"
               >
                 <svg
                   fill="none"
@@ -284,25 +285,25 @@
                 </svg>
               </div>
               <div class="flex-grow pl-4">
-                <h2
-                  class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider"
-                >
-                  STEP 1
+                <p class="font-meduim mb-1 text-xs text-gray-800">
+                  Novembre 2020 - present
+                </p>
+                <h2 class="font-bold text-gray-900 mb-1 tracking-wider">
+                  Fullstack Engineer
                 </h2>
-                <p class="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
+                <p class="text-sm leading-relaxed text-gray-700">
+                  Promy - full time
                 </p>
               </div>
             </div>
-            <div class="flex relative pb-12">
+            <div class="flex relative pb-8">
               <div
-                class="h-full w-10 absolute inset-0 flex items-center justify-center"
+                class="h-full top-3 mt-2 w-10 absolute inset-0 flex items-center justify-center"
               >
                 <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
               </div>
               <div
-                class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10"
+                class="mt-3 flex-shrink-0 w-10 h-10 rounded-full bg-green-100 inline-flex items-center justify-center text-green-600 relative z-10"
               >
                 <svg
                   fill="none"
@@ -313,29 +314,29 @@
                   class="w-5 h-5"
                   viewBox="0 0 24 24"
                 >
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                 </svg>
               </div>
               <div class="flex-grow pl-4">
-                <h2
-                  class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider"
-                >
-                  STEP 2
+                <p class="font-meduim mb-1 text-xs text-gray-800">
+                  July 2018 - 2019.
+                </p>
+                <h2 class="font-bold text-gray-900 mb-1 tracking-wider">
+                  Fullstack web developer
                 </h2>
-                <p class="leading-relaxed">
-                  Vice migas literally kitsch +1 pok pok. Truffaut hot chicken
-                  slow-carb health goth, vape typewriter.
+                <p class="text-sm text-smleading-relaxed text-gray-700">
+                  Pxlabs - full time
                 </p>
               </div>
             </div>
-            <div class="flex relative pb-12">
+            <div class="flex relative pb-8">
               <div
-                class="h-full w-10 absolute inset-0 flex items-center justify-center"
+                class="h-full top-3 mt-2 w-10 absolute inset-0 flex items-center justify-center"
               >
                 <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
               </div>
               <div
-                class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10"
+                class="mt-3 flex-shrink-0 w-10 h-10 rounded-full bg-green-100 inline-flex items-center justify-center text-green-600 relative z-10"
               >
                 <svg
                   fill="none"
@@ -346,19 +347,18 @@
                   class="w-5 h-5"
                   viewBox="0 0 24 24"
                 >
-                  <circle cx="12" cy="5" r="3"></circle>
-                  <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                 </svg>
               </div>
               <div class="flex-grow pl-4">
-                <h2
-                  class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider"
-                >
-                  STEP 3
+                <p class="font-meduim mb-1 text-xs text-gray-800">
+                  September 2017 - 2018 July.
+                </p>
+                <h2 class="font-bold text-gray-900 mb-1 tracking-wider">
+                  Fullstack web developer
                 </h2>
-                <p class="leading-relaxed">
-                  Coloring book nar whal glossier master cleanse umami. Salvia
-                  +1 master cleanse blog taiyaki.
+                <p class="text-sm text-smleading-relaxed mb-4 text-gray-700">
+                  SEOCOM - full time
                 </p>
               </div>
             </div>
