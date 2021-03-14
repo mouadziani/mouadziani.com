@@ -1,18 +1,18 @@
 <template>
   <div>
-    <Into />
+    <Intro />
     <Experience />
   </div>
 </template>
 
 <script>
-import Into from '../components/about/Into.vue'
+import Intro from '../components/about/Intro.vue'
 import Experience from '../components/about/Experience.vue'
 
 export default {
   layout: 'default',
   components: {
-    Into,
+    Intro,
     Experience,
   },
 }
