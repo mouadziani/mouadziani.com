@@ -68,7 +68,7 @@
       ></rect>
     </svg>
 
-    <div class="container relative max-w-screen-lg mx-auto py-16">
+    <div class="container relative max-w-screen-lg mx-auto py-16 md:px-5">
       <div class="flex flex-wrap w-full mb-4 flex-col">
         <h1 class="text-left text-3xl font-medium title-font text-gray-900">
           Testimonials

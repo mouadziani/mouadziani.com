@@ -1,16 +1,16 @@
 <template>
   <section class="text-gray-600 border-b bg-white">
     <div
-      class="container max-w-screen-lg mx-auto flex pt-36 pb-20 md:flex-row flex-col items-center justify-bteween"
+      class="container max-w-screen-lg mx-auto flex pt-36 pb-12 md:pb-20 md:flex-row flex-col items-center justify-bteween px-5 lg:px-0"
     >
       <div
-        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center"
       >
         <h3 class="mb-1 text-sm font-semibold text-green-700">
           <span class="text-xl mr-1">👋</span>
           Hi, Welcome There!
         </h3>
-        <h1 class="font-bold leading-none text-5xl text-gray-900">
+        <h1 class="font-bold leading-none text-4xl lg:text-5xl text-gray-900">
           I'm Mouad ZIANI
         </h1>
         <span class="mt-1 mb-4 w-10 h-1 bg-green-700"></span>
@@ -40,7 +40,7 @@
           </button>
         </div>
       </div>
-      <div>
+      <div class="hidden md:flex">
         <img class="object-cover h-64" alt="hero" src="hero.svg" />
       </div>
     </div>

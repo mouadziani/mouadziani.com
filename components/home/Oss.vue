@@ -1,6 +1,6 @@
 <template>
   <section class="text-gray-600 border-b bg-white">
-    <div class="container max-w-screen-lg mx-auto py-16">
+    <div class="container max-w-screen-lg mx-auto py-16 md:px-5">
       <div class="flex flex-wrap w-full mb-4 flex-col">
         <h1 class="text-left text-3xl font-medium title-font text-gray-900">
           Open Source
