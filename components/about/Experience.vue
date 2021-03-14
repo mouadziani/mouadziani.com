@@ -1,7 +1,7 @@
 <template>
   <section class="border-b bg-gray-50">
     <div class="container max-w-screen-lg mx-auto py-10 flex flex-col px-5">
-      <div class="grid grid-cols-1 gap-12 md:grid-rows-2 md:gap-16">
+      <div class="grid grid-cols-1 gap-12 md:grid-cols-2 md:gap-16">
         <div>
           <h1 class="text-left text-2xl font-medium title-font text-gray-900">
             Education
