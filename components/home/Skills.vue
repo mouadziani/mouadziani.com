@@ -14,7 +14,7 @@
           class="block bg-white p-6 shadow-full rounded-lg mt-2 lg:mt-0 w-full"
         >
           <div>
-            <h5 class="mb-4 text-lg leading-6 font-medium text-gray-900">
+            <h5 class="mb-4 leading-6 font-medium text-gray-900">
               {{ skill.title }}
             </h5>
             <!-- <p class="mt-2 mb-4 text-base leading-6 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->

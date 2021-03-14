@@ -33,11 +33,13 @@
           >
             Get In Touch
           </button>
-          <button
+          <a
+            target="_blank"
+            href="/Mouad_ZIANI_Resume_EN.pdf"
             class="ml-4 inline-flex shadow text-green-700 border border-green-700 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded"
           >
             View resume
-          </button>
+          </a>
         </div>
       </div>
       <div class="hidden md:flex">
