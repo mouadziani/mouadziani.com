@@ -15,15 +15,14 @@
         </h1>
         <span class="mt-1 mb-4 w-10 h-1 bg-green-700"></span>
         <p class="text-md mb-8 leading-relaxed text-gray-600">
-          Fullstack Engineer at
+          Fullstack Software Engineer at
           <a
             class="text-green-700 font-bold underline"
             href="https://www.promy.fr/"
           >
             Promy.fr
           </a>
-          & Final year Master degree student specialized in Computer System
-          Engineering.
+          & Master degree student specialized in Computer System Engineering.
           <br class="block mt-2" />
           Experienced in Web Development to provide a robust web application for
           high-level overviews.

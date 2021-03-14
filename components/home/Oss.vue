@@ -48,7 +48,7 @@
         </a>
         <div class="flex items-center justify-center">
           <a
-            class="bg-black flex px-24 py-3 rounded-lg text-white"
+            class="bg-black flex px-24 py-3 shadow-lg hover:bg-gray-700 rounded-lg text-white"
             href="https://github.com/mouadziani"
             target="_blank"
           >
