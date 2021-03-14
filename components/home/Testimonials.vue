@@ -78,8 +78,8 @@
         </h1>
         <span class="mt-1 w-10 mb-4 h-1 bg-green-800"></span>
       </div>
-      <div class="flex flex-row md:-mx-6 flex-wrap">
-        <div class="w-full md:w-1/2 md:px-6 mb-4">
+      <div class="flex flex-row flex-wrap">
+        <div class="w-full md:w-1/2 px-4 mb-4">
           <div
             class="border-2 rounded relative w-full h-min-content p-6 text-base testimonial animated slide-up-active border-green-800 uk-scrollspy-inview animation-position"
             uk-scrollspy-class="animation-position"
@@ -115,7 +115,7 @@
             </div>
           </div>
         </div>
-        <div class="w-full md:w-1/2 md:px-6 mb-4">
+        <div class="w-full md:w-1/2 px-4 mb-4">
           <div
             class="border-2 rounded relative w-full h-min-content p-6 text-base testimonial animated slide-up-active border-green-800"
             uk-scrollspy-class="animation-position"

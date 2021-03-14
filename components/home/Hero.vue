@@ -1,7 +1,7 @@
 <template>
   <section class="text-gray-600 border-b bg-white">
     <div
-      class="container max-w-screen-lg mx-auto flex pt-36 pb-12 md:pb-20 md:flex-row flex-col items-center justify-bteween px-5 lg:px-0"
+      class="container max-w-screen-lg mx-auto flex pt-36 pb-12 md:pb-20 md:flex-row flex-col items-center justify-bteween px-5"
     >
       <div
         class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center"

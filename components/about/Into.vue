@@ -1,7 +1,7 @@
 <template>
   <section class="text-gray-600 border-b bg-white">
     <div
-      class="container max-w-screen-lg mx-auto py-32 pb-10 flex flex-col md:px-5"
+      class="container max-w-screen-lg mx-auto md:items-start md:text-left items-center py-32 pb-12 flex flex-col px-5"
     >
       <h1 class="text-left text-3xl font-medium title-font text-gray-900">
         About Me
@@ -143,7 +143,7 @@
             </span>
           </div>
         </div>
-        <div>
+        <div class="hidden md:flex">
           <img class="object-cover h-64" alt="hero" src="/about-hero.svg" />
         </div>
       </div>
