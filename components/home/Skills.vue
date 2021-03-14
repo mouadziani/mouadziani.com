@@ -1,17 +1,17 @@
 <template>
   <section class="text-gray-600 border-b bg-gray-50">
-    <div class="container max-w-screen-lg mx-auto py-16 md:px-5">
-      <div class="flex flex-wrap w-full mb-4 flex-col">
-        <h1 class="text-left text-3xl font-medium title-font text-gray-900">
+    <div class="container max-w-screen-lg mx-auto py-12 px-5">
+      <div class="md:items-start items-center flex w-full mb-4 flex-col">
+        <h1 class="text-3xl font-medium leading-none title-font text-gray-900">
           My Skills
         </h1>
         <span class="mt-1 mb-4 w-10 h-1 bg-green-700"></span>
       </div>
-      <div class="grid grid-cols-4 gap-4">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div
           v-for="(skill, index) in skills"
           :key="index"
-          class="block bg-white p-6 shadow-full rounded-lg mt-10 lg:mt-0 w-full"
+          class="block bg-white p-6 shadow-full rounded-lg mt-2 lg:mt-0 w-full"
         >
           <div>
             <h5 class="mb-4 text-lg leading-6 font-medium text-gray-900">

@@ -2,13 +2,13 @@
   <footer class="text-white">
     <div class="bg-green-800">
       <div
-        class="container max-w-screen-lg mx-auto py-8 flex items-center sm:flex-row flex-col md:px-5"
+        class="container max-w-screen-lg mx-auto py-5 flex items-center flex-row px-5"
       >
         <NuxtLink
           to="/"
           class="flex title-font font-medium items-center md:justify-start justify-center"
         >
-          <span class="text-xl">Mouad ZIANI</span>
+          <span class="text-lg md:text-xl">Mouad ZIANI</span>
         </NuxtLink>
         <p class="text-sm ml-3">© 2021</p>
         <span class="ml-auto flex space-x-6">

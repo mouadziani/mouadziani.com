@@ -1,7 +1,7 @@
 <template>
   <section class="text-gray-600 border-b relative bg-white">
     <svg
-      class="absolute top-0 right-0 z-0 transform w-44 h-44 fill-current text-green-700"
+      class="hidden md:block absolute top-0 right-0 z-0 transform w-44 h-44 fill-current text-green-700"
       fill="none"
       viewBox="0 0 404 404"
       role="img"
@@ -35,7 +35,7 @@
       ></rect>
     </svg>
     <svg
-      class="absolute bottom-0 left-0 z-0 transform w-36 h-36 fill-current text-green-700"
+      class="hidden md:block absolute bottom-0 left-0 z-0 transform w-36 h-36 fill-current text-green-700"
       fill="none"
       viewBox="0 0 404 404"
       role="img"
@@ -67,16 +67,19 @@
         fill="url(#ad119f34-7694-4c31-947f-5c9d249b21f3)"
       ></rect>
     </svg>
-
-    <div class="container relative max-w-screen-lg mx-auto py-16 md:px-5">
-      <div class="flex flex-wrap w-full mb-4 flex-col">
-        <h1 class="text-left text-3xl font-medium title-font text-gray-900">
+    <div class="container relative max-w-screen-lg mx-auto py-12 px-5">
+      <div
+        class="md:items-start items-center flex flex-wrap w-full mb-4 flex-col"
+      >
+        <h1
+          class="text-left text-3xl leading-none font-medium title-font text-gray-900"
+        >
           Testimonials
         </h1>
         <span class="mt-1 w-10 mb-4 h-1 bg-green-800"></span>
       </div>
-      <div class="flex flex-row -mx-6 flex-wrap">
-        <div class="w-1/2 px-6">
+      <div class="flex flex-row md:-mx-6 flex-wrap">
+        <div class="w-full md:w-1/2 md:px-6 mb-4">
           <div
             class="border-2 rounded relative w-full h-min-content p-6 text-base testimonial animated slide-up-active border-green-800 uk-scrollspy-inview animation-position"
             uk-scrollspy-class="animation-position"
@@ -84,7 +87,7 @@
           >
             <div class="commas text-green-800">“</div>
             <p
-              class="mb-4 text-base md:text-lg leading-relaxed md:leading-normal tracking-wide"
+              class="mb-4 text-base md:text-lg leading-relaxed md:leading-normal"
             >
               Mouad is a fantastic person to work with. He is a hard worker
               experienced and gifted fullstack developer with a combination of
@@ -101,24 +104,18 @@
               class="flex flex-col md:flex-row justify-between items-start md:items-center"
             >
               <div class="flex">
-                <!-- <img src="/_nuxt/img/1bd1efc.png" class="rounded-full bg-gray-500 border border-gray-500 w-12 h-12 mr-4">  -->
                 <div>
                   <span class="block w-10 mb-4 h-0.5 bg-green-800"></span>
-                  <p class="text-base font-bold tracking-wide md:text-md">
-                    Houda SLASSI
-                  </p>
-                  <p
-                    class="text-xs tracking-wide font-semibold md:text-md text-green-800"
-                  >
+                  <p class="text-base font-bold md:text-md">Houda SLASSI</p>
+                  <p class="text-xs font-semibold md:text-md text-green-800">
                     Backend Software Developer
                   </p>
                 </div>
               </div>
             </div>
-            <!---->
           </div>
         </div>
-        <div class="w-1/2 px-6">
+        <div class="w-full md:w-1/2 md:px-6 mb-4">
           <div
             class="border-2 rounded relative w-full h-min-content p-6 text-base testimonial animated slide-up-active border-green-800"
             uk-scrollspy-class="animation-position"
@@ -126,7 +123,7 @@
           >
             <div class="commas text-green-800">“</div>
             <p
-              class="mb-4 text-base md:text-lg leading-relaxed md:leading-normal tracking-wide"
+              class="mb-4 text-base md:text-lg leading-relaxed md:leading-normal"
             >
               I know Mouad Ziani at SEOCOM he was under my responsibility, he's
               a Full-Stack Developer,
@@ -144,12 +141,10 @@
                 <!-- <img src="/_nuxt/img/1bd1efc.png" class="rounded-full bg-gray-500 border border-gray-500 w-12 h-12 mr-4">  -->
                 <div>
                   <span class="block w-10 mb-4 h-0.5 bg-green-800"></span>
-                  <p class="text-base font-semibold tracking-wide md:text-md">
+                  <p class="text-base font-semibold md:text-md">
                     Abdellah OUFFA
                   </p>
-                  <p
-                    class="text-xs tracking-wide font-semibold md:text-md text-green-800"
-                  >
+                  <p class="text-xs font-semibold md:text-md text-green-800">
                     Senior GIS Analyst
                   </p>
                 </div>
