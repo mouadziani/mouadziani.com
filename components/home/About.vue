@@ -1,7 +1,7 @@
 <template>
   <div class="relative bg-gray-50 border-b">
     <div
-      class="h-56 bg-green-800 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2"
+      class="h-56 bg-green-700 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2"
     >
       <img
         class="w-full h-full object-cover"
@@ -14,7 +14,7 @@
         <h1 class="text-left text-3xl font-medium title-font text-gray-900">
           About Me
         </h1>
-        <span class="block mt-1 w-10 mb-4 h-1 bg-green-800"></span>
+        <span class="block mt-1 w-10 mb-4 h-1 bg-green-700"></span>
         <p class="mt-6 leading-7 text-gray-600">
           Experienced Fullstack developer with great emphasis on Software
           Engineering, and a strong background in PHP, Javascript, Python and

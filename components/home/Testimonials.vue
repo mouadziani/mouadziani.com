@@ -76,16 +76,16 @@
         >
           Testimonials
         </h1>
-        <span class="mt-1 w-10 mb-4 h-1 bg-green-800"></span>
+        <span class="mt-1 w-10 mb-4 h-1 bg-green-700"></span>
       </div>
       <div class="flex flex-row flex-wrap">
         <div class="w-full md:w-1/2 px-4 mb-4">
           <div
-            class="border-2 rounded relative w-full h-min-content p-6 text-base testimonial animated slide-up-active border-green-800 uk-scrollspy-inview animation-position"
+            class="border-2 rounded relative w-full h-min-content p-6 text-base testimonial animated slide-up-active border-green-700 uk-scrollspy-inview animation-position"
             uk-scrollspy-class="animation-position"
             style=""
           >
-            <div class="commas text-green-800">“</div>
+            <div class="commas text-green-700">“</div>
             <p
               class="mb-4 text-base md:text-lg leading-relaxed md:leading-normal"
             >
@@ -105,9 +105,9 @@
             >
               <div class="flex">
                 <div>
-                  <span class="block w-10 mb-4 h-0.5 bg-green-800"></span>
+                  <span class="block w-10 mb-4 h-0.5 bg-green-700"></span>
                   <p class="text-base font-bold md:text-md">Houda SLASSI</p>
-                  <p class="text-xs font-semibold md:text-md text-green-800">
+                  <p class="text-xs font-semibold md:text-md text-green-700">
                     Backend Software Developer
                   </p>
                 </div>
@@ -117,11 +117,11 @@
         </div>
         <div class="w-full md:w-1/2 px-4 mb-4">
           <div
-            class="border-2 rounded relative w-full h-min-content p-6 text-base testimonial animated slide-up-active border-green-800"
+            class="border-2 rounded relative w-full h-min-content p-6 text-base testimonial animated slide-up-active border-green-700"
             uk-scrollspy-class="animation-position"
             style=""
           >
-            <div class="commas text-green-800">“</div>
+            <div class="commas text-green-700">“</div>
             <p
               class="mb-4 text-base md:text-lg leading-relaxed md:leading-normal"
             >
@@ -140,11 +140,11 @@
               <div class="flex">
                 <!-- <img src="/_nuxt/img/1bd1efc.png" class="rounded-full bg-gray-500 border border-gray-500 w-12 h-12 mr-4">  -->
                 <div>
-                  <span class="block w-10 mb-4 h-0.5 bg-green-800"></span>
+                  <span class="block w-10 mb-4 h-0.5 bg-green-700"></span>
                   <p class="text-base font-semibold md:text-md">
                     Abdellah OUFFA
                   </p>
-                  <p class="text-xs font-semibold md:text-md text-green-800">
+                  <p class="text-xs font-semibold md:text-md text-green-700">
                     Senior GIS Analyst
                   </p>
                 </div>

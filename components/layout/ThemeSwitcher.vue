@@ -1,6 +1,6 @@
 <template>
   <a
-    class="cursor-pointer text-copy-primary hover:text-gray-600"
+    class="cursor-pointer text-copy-primary hover:text-gray-400"
     @click.prevent="toggleTheme"
   >
     <svg

@@ -1,16 +1,20 @@
 <template>
-  <section class="text-gray-600 border-b bg-white">
+  <section
+    class="text-gray-600 border-b dark:border-gray-600 bg-white dark:text-gray-400 dark:bg-dark-light"
+  >
     <div
       class="container max-w-screen-lg mx-auto md:items-start md:text-left items-center py-32 pb-12 flex flex-col px-5"
     >
-      <h1 class="text-left text-3xl font-medium title-font text-gray-900">
+      <h1
+        class="dark:text-gray-200 text-left text-3xl font-medium title-font text-gray-900"
+      >
         About Me
       </h1>
-      <span class="block mt-1 w-10 h-1 bg-green-800"></span>
+      <span class="block mt-1 w-10 h-1 bg-green-700"></span>
 
       <div class="mt-6 flex md:flex-row space-x-14 flex-col justify-bteween">
         <div class="flex-1">
-          <p class="leading-7 text-gray-600">
+          <p class="leading-7">
             I'm Mouad ZIANI, 23 years old, Full Stack Software Engineer on web
             ecosystem, Master degree student specialised in Computer System
             Engineering and passionate about software engineering, with strong
@@ -25,7 +29,9 @@
             learning with the best.
           </p>
           <div class="mt-8">
-            <h5 class="text font-semibold text-gray-900 mb-4">
+            <h5
+              class="text font-semibold text-gray-900 dark:text-gray-300 mb-4"
+            >
               For business inquiries feel free to get in touch with me at:
             </h5>
             <ul class="mb-6 flex flex-col sm:text-left space-y-2">
@@ -45,7 +51,9 @@
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                <span class="text-gray-600">contact.mouad.ziani@gmail.com</span>
+                <span class="text-gray-600 dark:text-gray-400">
+                  contact.mouad.ziani@gmail.com
+                </span>
               </li>
               <li>
                 <span
@@ -63,10 +71,14 @@
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                <span class="text-gray-600">+212 654 899 763</span>
+                <span class="text-gray-600 dark:text-gray-400">
+                  +212 654 899 763
+                </span>
               </li>
             </ul>
-            <h5 class="text font-semibold text-gray-900 mb-6">
+            <h5
+              class="text font-semibold text-gray-900 dark:text-gray-300 mb-6"
+            >
               Or somewhere else on the web:
             </h5>
             <span class="flex space-x-6">
