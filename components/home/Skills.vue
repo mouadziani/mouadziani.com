@@ -1,8 +1,12 @@
 <template>
-  <section class="text-gray-600 border-b bg-gray-50">
+  <section
+    class="text-gray-600 border-b dark:border-gray-700 bg-gray-50 dark:bg-dark"
+  >
     <div class="container max-w-screen-lg mx-auto py-12 px-5">
       <div class="md:items-start items-center flex w-full mb-4 flex-col">
-        <h1 class="text-3xl font-medium leading-none title-font text-gray-900">
+        <h1
+          class="text-3xl font-medium leading-none title-font dark:text-gray-200 text-gray-900"
+        >
           My Skills
         </h1>
         <span class="mt-1 mb-4 w-10 h-1 bg-green-700"></span>
@@ -11,16 +15,15 @@
         <div
           v-for="(skill, index) in skills"
           :key="index"
-          class="block bg-white p-4 md:p-6 shadow-full rounded-lg mt-2 lg:mt-0 w-full"
+          class="block dark:bg-dark-light bg-white p-4 md:p-6 shadow-full rounded-lg mt-2 lg:mt-0 w-full"
         >
           <div>
             <h5
-              class="mb-4 text-sm md:text-base leading-6 font-medium text-gray-900"
+              class="mb-4 text-sm md:text-base leading-6 font-medium text-gray-900 dark:text-gray-200"
             >
               {{ skill.title }}
             </h5>
-            <!-- <p class="mt-2 mb-4 text-base leading-6 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
-            <nav class="flex flex-col text-left space-y-2">
+            <nav class="flex flex-col text-left space-y-2 dark:text-gray-400">
               <div v-for="(tech, indexTech) in skill.techs" :key="indexTech">
                 <span
                   class="bg-green-100 text-green-600 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center"

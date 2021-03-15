@@ -1,6 +1,6 @@
 <template>
   <section
-    class="text-gray-600 border-b dark:border-gray-600 bg-white dark:text-gray-400 dark:bg-dark-light"
+    class="text-gray-600 border-b dark:border-gray-700 bg-white dark:text-gray-400 dark:bg-dark-light"
   >
     <div
       class="container max-w-screen-lg mx-auto md:items-start md:text-left items-center py-32 pb-12 flex flex-col px-5"

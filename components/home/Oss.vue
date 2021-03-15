@@ -1,11 +1,13 @@
 <template>
-  <section class="text-gray-600 border-b bg-white">
+  <section
+    class="text-gray-600 border-b dark:border-gray-700 bg-white dark:bg-dark"
+  >
     <div class="container max-w-screen-lg mx-auto py-12 px-5">
       <div
         class="md:items-start items-center flex flex-wrap w-full mb-4 flex-col"
       >
         <h1
-          class="text-left text-3xl leading-none font-medium title-font text-gray-900"
+          class="text-left text-3xl leading-none font-medium title-font dark:text-gray-200 text-gray-900"
         >
           Open Source
         </h1>
@@ -15,17 +17,23 @@
         <a
           v-for="(project, index) in projects"
           :key="index"
-          class="block bg-white p-6 shadow-full rounded-lg mt-2 lg:mt-0 hover:shadow-lg"
+          class="block bg-white dark:bg-dark-light p-6 shadow-full rounded-lg mt-2 lg:mt-0 hover:shadow-lg"
           :href="project.html_url"
         >
           <div>
-            <h5 class="text-lg leading-6 font-medium text-gray-900">
+            <h5
+              class="text-lg leading-6 font-medium text-gray-900 dark:text-gray-200"
+            >
               {{ project.name }}
             </h5>
-            <p class="mt-4 mb-6 text-base leading-6 text-gray-500">
+            <p
+              class="mt-4 mb-6 text-base leading-6 text-gray-500 dark:text-gray-400"
+            >
               {{ project.description }}
             </p>
-            <ul class="flex items-center space-x-4 text-black">
+            <ul
+              class="flex items-center space-x-4 text-black dark:text-gray-200"
+            >
               <li class="inline-flex items-center">
                 <svg
                   class="h-4 w-4 mr-1"
