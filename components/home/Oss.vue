@@ -11,7 +11,7 @@
         </h1>
         <span class="mt-1 mb-4 w-10 h-1 bg-green-700"></span>
       </div>
-      <div class="grid grid-cols-2 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <a
           v-for="(project, index) in projects"
           :key="index"
@@ -52,7 +52,7 @@
         </a>
         <div class="flex items-center justify-center">
           <a
-            class="bg-black flex px-10 md:px-24 py-3 shadow-lg hover:bg-gray-800 rounded-lg text-white"
+            class="bg-black w-full md:w-auto flex items-center justify-center px-10 md:px-24 py-3 shadow-lg hover:bg-gray-800 rounded-lg text-white"
             href="https://github.com/mouadziani"
             target="_blank"
           >

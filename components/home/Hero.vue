@@ -15,7 +15,7 @@
         </h1>
         <span class="mt-1 mb-4 w-10 h-1 bg-green-700"></span>
         <p class="text-md mb-8 leading-relaxed text-gray-600">
-          Fullstack Software Engineer at
+          Full Stack Software Engineer at
           <a
             class="text-green-700 font-bold underline"
             href="https://www.promy.fr/"
