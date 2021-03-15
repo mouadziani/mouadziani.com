@@ -27,11 +27,12 @@
         >
           Blog
         </a>
-        <a
+        <NuxtLink
+          to="/contact"
           class="mr-5 cursor-pointer dark:hover:text-gray-400 hover:text-gray-900"
         >
           Contact
-        </a>
+        </NuxtLink>
         <theme-switcher
           class="md:hidden lg-hidden px-3 md:mr-4 lg:mr-4 md:border-r lg:border-r border-gray-400"
         ></theme-switcher>

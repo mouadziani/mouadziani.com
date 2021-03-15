@@ -1,6 +1,6 @@
 <template>
   <section
-    class="text-gray-600 border-b dark:border-gray-700 bg-white dark:text-gray-400 dark:bg-dark-light"
+    class="text-gray-600 border-b dark:border-gray-700 bg-white dark:text-gray-300 dark:bg-dark-light"
   >
     <div
       class="container max-w-screen-lg mx-auto md:items-start md:text-left items-center py-32 pb-12 flex flex-col px-5"
@@ -24,7 +24,7 @@
               name="fullName"
               placeholder="Full Name"
               required="required"
-              class="dark:bg-dark-light dark:border-gray-500 block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
+              class="dark:bg-dark dark:border-gray-500 block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
             />
           </div>
           <div class="w-1/2 px-4 mb-5">
@@ -37,7 +37,7 @@
               name="email"
               placeholder="email..."
               required="required"
-              class="dark:bg-dark-light dark:border-gray-500 block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
+              class="dark:bg-dark dark:border-gray-500 block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
             />
           </div>
           <div class="w-full px-4 mb-5">
@@ -51,7 +51,7 @@
               name="Message"
               placeholder="Message"
               required="required"
-              class="dark:bg-dark-light dark:border-gray-500 block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
+              class="dark:bg-dark dark:border-gray-500 block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
             ></textarea>
           </div>
         </div>
