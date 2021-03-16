@@ -80,23 +80,11 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
-  data() {
-    return {
-      projects: [],
-    }
-  },
-  mounted() {
-    this.getGithubRepositories()
-  },
-  methods: {
-    async getGithubRepositories() {
-      console.log(this.$axios)
-      let response = await this.$axios.$get(
-        'https://api.github.com/search/repositories?q=user:mouadziani%20feautred%20repository%20in:readme&sort=stars&order=desc&per_page=5'
-      )
-      this.projects = response.items
-    },
+  props: {
+    projects: [],
   },
 }
 </script>
