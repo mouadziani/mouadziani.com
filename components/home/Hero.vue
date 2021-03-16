@@ -1,6 +1,6 @@
 <template>
   <section
-    class="text-gray-600 border-b dark:border-gray-700 bg-white dark:bg-dark-light"
+    class="text-gray-600 border-b dark:border-gray-700 bg-white dark:bg-dark"
   >
     <div
       class="container max-w-screen-lg mx-auto flex pt-36 pb-12 md:pb-20 md:flex-row flex-col items-center justify-bteween px-5"
@@ -36,11 +36,12 @@
           high-level overviews.
         </p>
         <div class="flex justify-center">
-          <button
+          <NuxtLink
+            to="/contact"
             class="inline-flex shadow text-white bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded"
           >
             Get In Touch
-          </button>
+          </NuxtLink>
           <a
             target="_blank"
             href="/Mouad_ZIANI_Resume_EN.pdf"

@@ -9,8 +9,8 @@ module.exports = {
         body: ['Roboto', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        dark: '#0d2a42',
-        'dark-light': '#14314b',
+        dark: '#0a192f',
+        'dark-light': '#0c2242',
       },
       spacing: {
         0.5: '4px',

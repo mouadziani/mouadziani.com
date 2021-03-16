@@ -8,10 +8,10 @@
           to="/"
           class="flex title-font font-medium items-center md:justify-start justify-center"
         >
-          <span class="text-lg md:text-xl">Mouad ZIANI</span>
+          <span class="text-sm md:text-xl">Mouad ZIANI</span>
         </NuxtLink>
-        <p class="text-sm ml-3">© 2021</p>
-        <span class="ml-auto flex space-x-6">
+        <p class="text-sm ml-2">© 2021</p>
+        <span class="ml-auto flex space-x-4">
           <a
             target="_blank"
             href="https://www.facebook.com/rockabye.hipster/"
@@ -22,7 +22,7 @@
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
-              class="w-6 h-6"
+              class="w-5 h-5"
               viewBox="0 0 24 24"
             >
               <path
@@ -40,7 +40,7 @@
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
-              class="w-6 h-6"
+              class="w-5 h-5"
               viewBox="0 0 24 24"
             >
               <path
@@ -72,7 +72,7 @@
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="0"
-              class="w-6 h-6"
+              class="w-5 h-5"
               viewBox="0 0 24 24"
             >
               <path

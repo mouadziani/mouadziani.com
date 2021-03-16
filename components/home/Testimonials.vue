@@ -1,6 +1,6 @@
 <template>
   <section
-    class="text-gray-600 dark:text-gray-400 relative bg-white dark:bg-dark-light"
+    class="text-gray-600 dark:text-gray-400 relative bg-gray-50 dark:bg-dark"
   >
     <svg
       class="hidden md:block absolute top-0 right-0 z-0 transform w-44 h-44 fill-current text-green-700 dark:text-green-500"
@@ -41,7 +41,6 @@
       role="img"
       aria-labelledby="svg-laravelcm"
     >
-      <title id="svg-laravelcm">Laravel Cameroon</title>
       <defs>
         <pattern
           id="ad119f34-7694-4c31-947f-5c9d249b21f3"
@@ -84,7 +83,7 @@
             class="border-2 rounded relative w-full h-min-content p-6 text-base testimonial animated slide-up-active border-green-600 uk-scrollspy-inview animation-position"
           >
             <div
-              class="commas bg-white dark:bg-dark-light text-green-700 dark:text-green-500"
+              class="commas bg-white dark:bg-dark text-green-700 dark:text-green-500"
             >
               “
             </div>
@@ -112,7 +111,11 @@
                   <span
                     class="block w-10 mb-4 h-0.5 bg-green-600 dark:bg-green-600"
                   ></span>
-                  <p class="text-base font-bold md:text-md">Houda SLASSI</p>
+                  <p
+                    class="text-gray-500 dark:text-gray-300 text-base font-bold md:text-md"
+                  >
+                    Houda SLASSI
+                  </p>
                   <p
                     class="text-xs font-semibold md:text-md text-green-700 dark:text-green-500"
                   >
@@ -128,7 +131,7 @@
             class="border-2 rounded relative w-full h-min-content p-6 text-base testimonial animated slide-up-active border-green-700"
           >
             <div
-              class="commas bg-white dark:bg-dark-light text-green-700 dark:text-green-500"
+              class="commas bg-white dark:bg-dark text-green-700 dark:text-green-500"
             >
               “
             </div>
@@ -154,7 +157,9 @@
                   <span
                     class="block w-10 mb-4 h-0.5 bg-green-600 dark:bg-green-600"
                   ></span>
-                  <p class="text-base font-semibold md:text-md">
+                  <p
+                    class="text-gray-500 dark:text-gray-300 text-base font-semibold md:text-md"
+                  >
                     Abdellah OUFFA
                   </p>
                   <p

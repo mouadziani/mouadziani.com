@@ -2,6 +2,7 @@
   <div class="font-body">
     <Hero />
     <Skills />
+    <TeckStack />
     <Oss :projects="projects" />
     <Testimonials />
   </div>

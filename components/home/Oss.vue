@@ -17,7 +17,8 @@
         <a
           v-for="(project, index) in projects"
           :key="index"
-          class="block bg-white dark:bg-dark-light p-6 shadow-full rounded-lg mt-2 lg:mt-0 hover:shadow-lg"
+          target="_blank"
+          class="block bg-white dark:bg-dark-light p-6 shadow-full rounded-lg mt-2 lg:mt-0 transition duration-200 ease-in-out transform hover:-translate-y-2"
           :href="project.html_url"
         >
           <div>
@@ -80,8 +81,6 @@
 </template>
 
 <script>
-import axios from 'axios'
-
 export default {
   props: {
     projects: [],
