@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Mouad ZIANI - Fullstack Software Enginner',
+    title: 'Mouad ZIANI - Fullstack Software Engineer',
     htmlAttrs: {
       lang: 'en',
     },
