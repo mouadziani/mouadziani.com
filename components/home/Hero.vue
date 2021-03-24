@@ -23,14 +23,7 @@
         <p
           class="text-md mb-8 leading-relaxed text-gray-600 dark:text-gray-300"
         >
-          Full Stack Software Engineer at
-          <a
-            class="text-green-700 dark:text-green-600 font-bold underline"
-            href="https://www.promy.fr/"
-          >
-            Promy.fr
-          </a>
-          & Master degree student specialized in Computer System Engineering.
+          Full Stack Software Engineer & Master degree student specialized in Computer System Engineering.
           <br class="block mt-2" />
           Experienced in Web Development to provide a robust web application for
           high-level overviews.
