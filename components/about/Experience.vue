@@ -85,7 +85,7 @@
                 University Cadi Ayyad - Faculty of Sciences Semlalia
               </p>
               <p class="mt-4 font-semibold text-green-500">
-                🏆 First class honours grade
+                🏆 First class honours
               </p>
             </div>
           </div>
