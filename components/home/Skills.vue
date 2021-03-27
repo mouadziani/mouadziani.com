@@ -33,7 +33,7 @@ export default {
     return {
       skills: [
         {
-          title: 'Laravel',
+          title: 'Laravel Stacks',
           icon: '/techs/laravel.svg',
         },
         {
