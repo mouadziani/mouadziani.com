@@ -83,7 +83,7 @@
             class="border-2 rounded relative w-full h-min-content p-6 text-base testimonial animated slide-up-active border-green-600 uk-scrollspy-inview animation-position"
           >
             <div
-              class="commas bg-white dark:bg-dark text-green-700 dark:text-green-500"
+              class="commas bg-gray-50 dark:bg-dark text-green-700 dark:text-green-500"
             >
               “
             </div>
@@ -131,7 +131,7 @@
             class="border-2 rounded relative w-full h-min-content p-6 text-base testimonial animated slide-up-active border-green-700"
           >
             <div
-              class="commas bg-white dark:bg-dark text-green-700 dark:text-green-500"
+              class="commas bg-gray-50 dark:bg-dark text-green-700 dark:text-green-500"
             >
               “
             </div>
