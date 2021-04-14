@@ -41,7 +41,7 @@ export default {
           icon: '/techs/symfony.svg',
         },
         {
-          title: 'JaveEE/Spring',
+          title: 'JavaEE/Spring',
           icon: '/techs/spring.svg',
         },
         {
