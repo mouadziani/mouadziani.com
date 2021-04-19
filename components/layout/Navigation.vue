@@ -1,6 +1,6 @@
 <template>
   <header
-    class="w-full bg-white dark:bg-dark border-t-4 border-green-700 body-font fixed z-50 shadow-md"
+    class="w-full bg-white dark:bg-dark border-t-4 border-green-700 body-font fixed z-50 shadow"
   >
     <div
       class="container max-w-screen-lg mx-auto flex flex-wrap py-4 md:py-5 lg:py-5 flex-col md:flex-row items-center md:px-5 text-gray-600 dark:text-gray-200"
