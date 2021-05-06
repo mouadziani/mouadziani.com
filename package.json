@@ -22,6 +22,7 @@
   "devDependencies": {
     "@nuxtjs/color-mode": "^2.0.4",
     "@nuxtjs/eslint-config": "^6.0.0",
+    "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/tailwindcss": "^3.4.2",
     "@vue/test-utils": "^1.1.2",
     "autoprefixer": "^9",

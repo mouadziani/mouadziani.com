@@ -2,7 +2,6 @@
   <div class="font-body">
     <Hero />
     <Skills />
-    <TeckStack />
     <Oss :projects="projects" />
     <Testimonials />
   </div>
@@ -10,10 +9,10 @@
 
 <script>
 import axios from 'axios'
-import Hero from '../components/home/Hero.vue'
-import Skills from '../components/home/Skills.vue'
-import Testimonials from '../components/home/Testimonials.vue'
-import Oss from '../components/home/Oss.vue'
+import Hero from '@/components/home/Hero.vue'
+import Skills from '@/components/home/Skills.vue'
+import Testimonials from '@/components/home/Testimonials.vue'
+import Oss from '@/components/home/Oss.vue'
 
 export default {
   layout: 'default',
