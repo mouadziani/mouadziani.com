@@ -1,4 +1,4 @@
-# portfolio
+# My personal portfolio
 
 ## Build Setup
 
