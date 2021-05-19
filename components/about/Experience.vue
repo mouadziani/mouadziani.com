@@ -72,7 +72,7 @@
               <p
                 class="font-meduim mb-1 text-xs text-gray-800 dark:text-gray-400"
               >
-                September 2015 - 2019 July.
+                September 2015 - July 2019.
               </p>
               <h2
                 class="font-bold text-gray-900 dark:text-gray-300 mb-1 tracking-wider text-lg"
@@ -114,7 +114,7 @@
               <p
                 class="font-meduim mb-1 text-xs text-gray-800 dark:text-gray-400"
               >
-                September 2012 - 2015 June.
+                June 2015.
               </p>
               <h2
                 class="font-bold text-gray-900 dark:text-gray-300 mb-1 tracking-wider text-lg"
@@ -296,7 +296,7 @@
               <p
                 class="font-meduim mb-1 text-xs text-gray-800 dark:text-gray-400"
               >
-                September 2017 - 2018 July.
+                September 2017 - July 2018.
               </p>
               <h2
                 class="font-bold text-gray-900 dark:text-gray-300 mb-1 tracking-wider text-lg"
