@@ -32,7 +32,7 @@
             </div>
             <div class="flex-grow pl-4">
               <p class="font-meduim mb-1 text-xs dark:text-gray-400">
-                September 2019 - present
+                September 2019 - July 2021
               </p>
               <h2
                 class="font-bold text-gray-900 dark:text-gray-300 mb-1 tracking-wider text-lg"
