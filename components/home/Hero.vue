@@ -23,7 +23,7 @@
         <p
           class="text-md mb-8 leading-relaxed text-gray-600 dark:text-gray-300"
         >
-          Full Stack Software Engineer & Master degree student specialized in Computer System Engineering.
+          Software Engineer on web ecosystem, graduated with a Master's degree specialised in Computer System Engineering.
           <br class="block mt-2" />
           Experienced in Web Development to provide a robust web application for
           high-level overviews.
