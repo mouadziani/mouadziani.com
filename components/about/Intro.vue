@@ -15,10 +15,7 @@
       <div class="mt-6 flex md:flex-row space-x-14 flex-col justify-bteween">
         <div class="flex-1">
           <p class="leading-7">
-            I'm Mouad ZIANI, 24 years old, Full Stack Software Engineer on web
-            ecosystem, Master degree student specialised in Computer System
-            Engineering and passionate about software engineering, with strong
-            background in PHP, Javascript/Typescript, Java and Python.
+            I'm Mouad ZIANI, 24 years old, Full Stack Software Engineer on web ecosystem, graduated with a Master's degree specialised in Computer System Engineering and passionate about software engineering, with strong background in PHP, Javascript/Typescript, Java and Python.
             <br class="block mt-2.5" />
             I have over +3 years of experience at private IT companies. Also as
             a freelancer.
