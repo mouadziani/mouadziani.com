@@ -10,7 +10,7 @@
         >
           <span class="text-sm md:text-xl">Mouad ZIANI</span>
         </NuxtLink>
-        <p class="text-sm ml-2">© 2021</p>
+        <p class="text-sm ml-2">© 2022</p>
         <span class="ml-auto flex space-x-4">
           <a
             target="_blank"
