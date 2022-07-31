@@ -25,7 +25,7 @@ export default {
   asyncData({ params, error }) {
     return axios
       .get(
-        'https://api.github.com/search/repositories?q=user:mouadziani%20feautred%20repository%20in:readme&sort=stars&order=desc&per_page=5'
+        'https://api.github.com/search/repositories?q=user:mouadziani%20featured%20repository%20in:readme&sort=stars&order=desc&per_page=5'
       )
       .then((response) => {
         return {
