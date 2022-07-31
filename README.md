@@ -16,4 +16,4 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-feautred_repository
+featured_repository
