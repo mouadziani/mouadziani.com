@@ -177,7 +177,7 @@
                                     >
                                 Buglab
                                 </a>
-                                - Full time (Remotely)
+                                - Full time (Remote)
                             </p>
                         </div>
                     </div>
@@ -222,7 +222,7 @@
                                     >
                                 Millions
                                 </a>
-                                - Full time (Remotely)
+                                - Full time (Remote)
                             </p>
                         </div>
                     </div>
@@ -267,7 +267,7 @@
                                     >
                                 Promy.fr
                                 </a>
-                                - Full time (Remotely)
+                                - Full time (Remote)
                             </p>
                         </div>
                     </div>
@@ -305,11 +305,11 @@
                             </h2>
                             <p
                                 class="text-sm text-smleading-relaxed text-gray-700 dark:text-gray-400"
-                                >
+                             >
                                 <a
                                     class="text-green-700 dark:text-green-500 underline mr-1"
                                     href="https://www.elsahariano.com"
-                                    >
+                                >
                                 Elsahariano Travels
                                 </a>
                                 - Part time
