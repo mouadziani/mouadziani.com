@@ -165,8 +165,8 @@
                             </p>
                             <h2
                                 class="font-bold text-gray-900 dark:text-gray-300 mb-1 tracking-wider text-lg"
-                                >
-                                Full Stack developer
+                            >
+                                Full Stack Software Engineer
                             </h2>
                             <p
                                 class="text-sm leading-relaxed text-gray-700 dark:text-gray-400"
@@ -211,7 +211,7 @@
                             <h2
                                 class="font-bold text-gray-900 dark:text-gray-300 mb-1 tracking-wider text-lg"
                                 >
-                                Sr. Backend Engineer
+                                Backend Engineer
                             </h2>
                             <p
                                 class="text-sm leading-relaxed text-gray-700 dark:text-gray-400"
@@ -256,7 +256,7 @@
                             <h2
                                 class="font-bold text-gray-900 dark:text-gray-300 mb-1 tracking-wider text-lg"
                                 >
-                                Fullstack Software Engineer
+                                Full Stack Software Engineer
                             </h2>
                             <p
                                 class="text-sm leading-relaxed text-gray-700 dark:text-gray-400"
@@ -346,7 +346,7 @@
                             <h2
                                 class="font-bold text-gray-900 dark:text-gray-300 mb-1 tracking-wider text-lg"
                                 >
-                                Fullstack Software Developer
+                                Full Stack Web Developer
                             </h2>
                             <p
                                 class="text-sm text-smleading-relaxed text-gray-700 dark:text-gray-400"
@@ -391,7 +391,7 @@
                             <h2
                                 class="font-bold text-gray-900 dark:text-gray-300 mb-1 tracking-wider text-lg"
                                 >
-                                Fullstack Software Developer
+                                Full Stack Web Developer
                             </h2>
                             <p
                                 class="text-sm text-smleading-relaxed mb-4 text-gray-700 dark:text-gray-400"
